@@ -1,0 +1,22 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Local environment and secrets
+/.env
+/.env.*
+!/.env.example
+
+# Generated Laravel files
+/public/build/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/database/*.sqlite*
+
+# Test output and operating system files
+/.phpunit.cache/
+/.phpunit.result.cache
+*.log
+.DS_Store
